@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: my-python-bot-new
+    restart: always
+    volumes:
+      - .:/app
+    command: python my_resume.py
