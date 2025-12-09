@@ -31,7 +31,7 @@ RESUME_FILES = {
 }
 
 # Admin ID
-ADMIN_ID = int(1585575500)
+ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
 
 # Conversation states
 WAITING_FOR_RESUME = 1
@@ -717,7 +717,7 @@ def main() -> None:
     # Initialize database
     init_database()
 
-    token = "7657405647:AAG0xjBotjMqN3VBOKs6Yziq2hM6-kXmY64"
+    token = os.getenv("TELEGRAM_BOT_TOKEN")
 
     if not token:
         raise ValueError("TELEGRAM_BOT_TOKEN topilmadi!")
