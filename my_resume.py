@@ -427,8 +427,8 @@ def contact_handler(update: Update, context: CallbackContext) -> None:
     lang = get_user_language(context)
 
     buttons = [
-        [InlineKeyboardButton(text=get_text(lang, "telegram"), url="https://t.me/username")],
-        [InlineKeyboardButton(text=get_text(lang, "linkedin"), url="https://linkedin.com/in/mahmurjon")],
+        [InlineKeyboardButton(text=get_text(lang, "telegram"), url="https://t.me/@xayrullayev_0820")],
+        [InlineKeyboardButton(text=get_text(lang, "linkedin"), url="https://www.linkedin.com/in/ma-murjon-khayrullayev-3b7465358/")],
         [InlineKeyboardButton(text=get_text(lang, "back"), callback_data="back_menu")]
     ]
 
