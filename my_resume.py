@@ -31,7 +31,8 @@ RESUME_FILES = {
 }
 
 # Admin ID
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+ADMIN_ID = int(1585575500)
+
 # Conversation states
 WAITING_FOR_RESUME = 1
 WAITING_FOR_MESSAGE = 2
@@ -50,9 +51,9 @@ TRANSLATIONS = {
         "resume_eng": "📄 Resume (English)",
         "resume_rus": "📄 Резюме (Русский)",
         "contact": "📞 Men bilan bog'lanish",
-        "contact_text": "📞 Men bilan bog'lanish:\n\n📧 Email:xayrullayevmamur381@gamil.com\n📱 Tel: +998 91 525 07 28\n\nQuyidagi turlardan birini tanlang:",
-        "telegram": "💬 @xayrullayev_0820",
-        "linkedin": "💼 https://www.linkedin.com/in/ma-murjon-khayrullayev-3b7465358/",
+        "contact_text": "📞 Men bilan bog'lanish:\n\n📧 Email: xayrullayevmamur381@gamil.com\n📱 Tel: +998 91 525 07 28\n\nQuyidagi turlardan birini tanlang:",
+        "@xayrullayev_0820": "💬 Telegram",
+        "https://www.linkedin.com/in/ma-murjon-khayrullayev-3b7465358/": "💼 LinkedIn",
         "back": "🔙 Orqaga",
         "downloaded": "✅ Sizga Xayrullayev Ma'murjoning resumesi yuborildi.\n\nE'tibor bilan tanishib chiqing! 👍",
         "file_not_found": "❌ Resume fayli topilmadi.\n\nIltimos, keyinroq urinib ko'ring yoki admin bilan bog'lanishingiz.",
@@ -85,12 +86,12 @@ TRANSLATIONS = {
         "select_lang": "Выберите язык / Til tanlang / Select language:",
         "choose_resume": "Выберите один из следующих вариантов:",
         "resume_uzb": "📄 Резюме (Ўзбек)",
-        "resume_eng": "📄 Resume (English)",
+        "resume_eng": "📄 Резюме (English)",
         "resume_rus": "📄 Резюме (Русский)",
         "contact": "📞 Связаться со мной",
         "contact_text": "📞 Связаться со мной:\n\n📧 Email: xayrullayevmamur381@gamil.com\n📱 Тел: +998 91 525 07 28\n\nВыберите один из следующих вариантов:",
-        "telegram": "💬 @xayrullayev_0820",
-        "linkedin": "💼 https://www.linkedin.com/in/ma-murjon-khayrullayev-3b7465358/",
+        "@xayrullayev_0820": "💬 Telegram",
+        "https://www.linkedin.com/in/ma-murjon-khayrullayev-3b7465358/": "💼 LinkedIn",
         "back": "🔙 Назад",
         "downloaded": "✅ Резюме Мамуржон Хайруллаев отправлено вам.\n\nПожалуйста, внимательно ознакомьтесь! 👍",
         "file_not_found": "❌ Файл резюме не найден.\n\nПожалуйста, попробуйте позже или свяжитесь с администратором.",
@@ -126,9 +127,9 @@ TRANSLATIONS = {
         "resume_eng": "📄 Resume (English)",
         "resume_rus": "📄 Резюме (Русский)",
         "contact": "📞 Contact me",
-        "contact_text": "📞 Contact me:\n\n📧 Email: mahmurjon@example.com\n📱 Phone: +998 90 123 45 67\n\nChoose one of the following options:",
-        "telegram": "💬 Telegram",
-        "linkedin": "💼 LinkedIn",
+        "contact_text": "📞 Contact me:\n\n📧 Email: xayrullayevmamur381@gamil.com\n📱 Phone: +998 91 525 07 28\n\nChoose one of the following options:",
+        "@xayrullayev_0820": "💬 Telegram",
+        "https://www.linkedin.com/in/ma-murjon-khayrullayev-3b7465358/": "💼 LinkedIn",
         "back": "🔙 Back",
         "downloaded": "✅ Ma'murjon Khayrullayev's resume has been sent to you.\n\nPlease review it carefully! 👍",
         "file_not_found": "❌ Resume file not found.\n\nPlease try again later or contact the administrator.",
