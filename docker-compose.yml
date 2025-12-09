@@ -7,6 +7,7 @@ services:
     restart: always
     volumes:
       - .:/app
-    env_file:
-      - .env
+    environment:
+      - TELEGRAM_BOT_TOKEN  # .env fayldagi TELEGRAM_BOT_TOKEN ni oladi
+      - ADMIN_ID            # .env fayldagi ADMIN_ID ni oladi
     command: python my_resume.py
