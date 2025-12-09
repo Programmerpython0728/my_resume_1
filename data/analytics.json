@@ -1,0 +1,26 @@
+{
+  "downloads": 3,
+  "users": [
+    1585575500
+  ],
+  "messages": [
+    {
+      "user_id": 1585575500,
+      "action": "download",
+      "resume_type": "resume_uzb",
+      "timestamp": "2025-12-09T10:51:25.273839"
+    },
+    {
+      "user_id": 1585575500,
+      "action": "download",
+      "resume_type": "resume_eng",
+      "timestamp": "2025-12-09T10:59:28.813003"
+    },
+    {
+      "user_id": 1585575500,
+      "action": "download",
+      "resume_type": "resume_uzb",
+      "timestamp": "2025-12-09T10:59:58.791711"
+    }
+  ]
+}
